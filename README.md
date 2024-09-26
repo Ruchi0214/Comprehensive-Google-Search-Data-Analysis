@@ -22,13 +22,8 @@ Jupyter Notebook: For interactive analysis and visualizations.
 
 Fetching Data from Google Trends
 Google Trends provides data on search interest over time for specific terms. Using pytrends, data is fetched programmatically.
-           Data Analytics  Data Science  Data Warehouse  isPartial
-date                                                               
-2022-02-06              43            79              12      False
-2022-02-13              47            85              13      False
-2022-02-20              45            83              12      False
-2022-02-27              44            84              13      False
-2022-03-06              44            85              13      False
+      ![image](https://github.com/user-attachments/assets/095a99d8-bd99-45ae-a8b1-5c7505fe46f5)
+
 
 
 
@@ -36,11 +31,8 @@ date
 Data Preprocessing
 Handle missing values and prepare the data for analysis. The data will be checked for any missing values and cleaned before moving on to analysis.
 
-Data Analytics    0
-Data Science      0
-Data Warehouse    0
-dtype: int64
-<ipython-input-31-3f20f8e7d5aa>:9: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+![image](https://github.com/user-attachments/assets/ce522292-c6c8-475b-acfa-ea52989850aa)
+ DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
   trend_data.fillna(method='ffill', inplace=True)
 
 
